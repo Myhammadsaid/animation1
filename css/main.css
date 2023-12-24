@@ -1,0 +1,179 @@
+.animations {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  height: 100px;
+}
+
+.animation {
+  text-align: center;
+  margin: 200px auto;
+  height: 100px;
+  transition: all infinite linear;
+}
+
+.group1 {
+  display: inline-block;
+  position: relative;
+  animation-name: Animations;
+  margin-left: 20px;
+  background: green;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  width: 0px;
+  height: 0px;
+}
+
+.group2 {
+  display: inline-block;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-duration: 1.9s;
+  animation-timing-function: ease-in-out;
+  animation-name: Animations;
+  margin-left: 20px;
+  background: green;
+  width: 0px;
+  height: 0px;
+}
+
+.group3 {
+  display: inline-block;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-duration: 1.8s;
+  animation-timing-function: ease-in-out;
+  animation-name: Animations;
+  margin-left: 20px;
+  background: green;
+  width: 0px;
+  height: 0px;
+}
+
+.group4 {
+  display: inline-block;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-duration: 1.7s;
+  animation-timing-function: ease-in-out;
+  animation-name: Animations;
+  margin-left: 20px;
+  background: green;
+  width: 0px;
+  height: 0px;
+}
+.group5 {
+  display: inline-block;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-duration: 1.6s;
+  animation-timing-function: ease-in-out;
+  animation-name: Animations;
+  margin-left: 20px;
+  background: green;
+  width: 0px;
+  height: 0px;
+}
+.group6 {
+  display: inline-block;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-name: Animations;
+  margin-left: 20px;
+  background: green;
+  width: 0px;
+  height: 0px;
+}
+.group7 {
+  display: inline-block;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-duration: 1.4s;
+  animation-timing-function: ease-in-out;
+  animation-name: Animations;
+  margin-left: 20px;
+  background: green;
+  width: 0px;
+  height: 0px;
+}
+.group8 {
+  display: inline-block;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+  animation-name: Animations;
+  margin-left: 20px;
+  background: green;
+  width: 0px;
+  height: 0px;
+}
+.group9 {
+  display: inline-block;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  animation-name: Animations;
+  margin-left: 20px;
+  background: green;
+  width: 0px;
+  height: 0px;
+}
+.group10 {
+  display: inline-block;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-duration: 1.1s;
+  animation-timing-function: ease-in-out;
+  animation-name: Animations;
+  margin-left: 20px;
+  background: green;
+  width: 0px;
+  height: 0px;
+}
+.group11 {
+  display: inline-block;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-name: Animations;
+  margin-left: 20px;
+  background: green;
+  width: 0px;
+  height: 0px;
+}
+.group12 {
+  display: inline-block;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-duration: 0.9s;
+  animation-timing-function: ease-in-out;
+  animation-name: Animations;
+  margin-left: 20px;
+  background: green;
+  width: 0px;
+  height: 0px;
+}
+
+@keyframes Animations {
+  0% {
+    height: 50px;
+    width: 5px;
+    background-color: green;
+  }
+  50% {
+    height: 100px;
+    background-color: yellow;
+  }
+  100% {
+    height: 50px;
+    width: 5px;
+    background-color: green;
+  }
+}
